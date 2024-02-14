@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/*conten organization*/
+body {
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1f2937;
+}
+
+ul.head {
+  display: flex;
+  gap: 10px;
+}
+.img {
+  width: 518px;
+  height: 236px;
+  background-color: grey;
+}
+header {
+  height: 500px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contenthead {
+  width: 471px;
+  height: 231px;
+}
+.information {
+  height: 501px;
+  display: flex;
+  align-items: center;
+}
+.some {
+  width: 835px;
+  height: 332px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.boxes {
+  width: 170px;
+  height: 170px;
+  border: blue solid 3px;
+  flex-shrink: 0;
+}
+.text {
+  max-width: 170px;
+}
+.box1 {
+  background-color: gray;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phrase{
+  width: 800px;
+  height: 200px;
+}
+.box2 {
+  height: 352px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color: #3882f6;
+  width: 1030px;
+  height: 151px;
+}
+footer {
+  background-color: #1f2937;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*styles*/
+ul {
+  list-style-type: none;
+}
+.phrase{
+  font-size: 36px;
+  font-style: light italic;
+  color: #1f2937;
+}
+.action{
+  background-color: transparent;
+  border-color: white;
+  border-radius: 5px;
+}
